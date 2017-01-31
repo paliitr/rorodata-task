@@ -1,4 +1,4 @@
-### Task for internship at rorodata
+# Task for internship at rorodata
 ## Problem 1
 
 The Google Maps provides a Distance Matrix API that provides travel
@@ -35,3 +35,17 @@ writing files/100-part2.txt
 writing files/100-part3.txt
 writing files/100-part4.txt
 ```
+
+## Solution
+### Problem 1
+
+Run this to install all required packages
+```bash
+pip install requirements.txt
+```
+
+Currently, the solution supports only default parameters. Other transportation methods like bicycle, transit etc. can be added by modifying the request url and argument parsing accordingly.
+
+### Problem 2
+
+This solution will currently work only on Linux system as it uses the split bash command.
