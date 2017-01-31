@@ -11,11 +11,11 @@ and prints the travel distance and time. The distance should be in km or meters.
 output should just contain 2 lines with distance on the first line and time in the
 second line.
 
-'''bash
+```bash
 python howlong.py Hyderabad Chennai
 627 km
 10 hours 10 mins
-'''
+```
 
 For example, visit:
 https://maps.googleapis.com/maps/api/distancematrix/json?units=metric&origins=Hyderabad&destinations=Chennai
@@ -28,10 +28,10 @@ files. The program should take a filename and the number of lines as arguments a
 write multiple small files each containing the specified number of lines (The last one
 may have smaller number of lines).
 
-'''bash
+```bash
 python split.py files/100.txt 30
 writing files/100-part1.txt
 writing files/100-part2.txt
 writing files/100-part3.txt
 writing files/100-part4.txt
-'''
+```
